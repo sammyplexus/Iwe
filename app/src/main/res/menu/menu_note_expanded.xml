@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sammybobo.iwe.com.samuelagbede.sammybobo.iwe.MainActivity">
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:title="Share"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_share_white_24dp"/>
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:title="Delete"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_delete_forever_white_24dp"/>
+    <item
+        android:id="@+id/action_update"
+        android:orderInCategory="100"
+        android:title="Update"
+        android:icon="@drawable/ic_save_white"
+        app:showAsAction="always"
+        />
+</menu>
